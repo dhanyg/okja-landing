@@ -1,7 +1,7 @@
 # okja-landing
 Landing page for okja website
 
-An alternative and simple landing page made with tailwind css.  
+An alternative and simple landing page made with tailwind css. [Demo](https://dhanyg.github.io/okja-landing/index.html)  
   
 ## How to use  
 Simply clone the repository  

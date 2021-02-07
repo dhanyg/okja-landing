@@ -11,4 +11,15 @@ Run `npm install`
   
 Build the css using command `npm run build`  
   
-For production, use command `npm run serve` (it will compress the size of css file)
+For production, edit file `tailwind.config.js`, uncomment `enable: true` in purge section:  
+```
+purge: {
+    // enabled: true,
+    content: [
+      './*.html',
+    ],
+  },
+```
+Then use command `npm run serve` (it will compress the size of css file)  
+  
+**Don't forget to comment `enable: true` or change the value to `false` for development**

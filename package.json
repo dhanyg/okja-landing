@@ -5,10 +5,9 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "SET NODE_ENV=development && npx tailwindcss-cli@latest build ./src/tailwind.css -o ./css/style.css",
-    "serve": "SET NODE_ENV=production && npx tailwindcss-cli@latest build ./src/tailwind.css -o ./css/style.css"
+    "build": "npx tailwindcss-cli@latest build ./src/tailwind.css -o ./css/style.css"
   },
-  "keywords": [],
+  "keywords": [ ],
   "author": "",
   "license": "ISC",
   "dependencies": {
